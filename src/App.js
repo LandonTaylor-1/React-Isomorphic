@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Beer from './Beer'
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
 
 class App extends Component {
   constructor(props) {
